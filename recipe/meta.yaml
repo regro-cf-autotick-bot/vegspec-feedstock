@@ -1,5 +1,5 @@
 {% set name = "vegspec" %}
-{% set version = "1.0.3" %}
+{% set version = "1.0.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/vegspec-{{ version }}.tar.gz
-  sha256: f682907c0b5a155e348b615eabf96a5e62405f177d2bab94aaa7f50cbf307b76
+  sha256: 132c1b9f52b44077a9135ca75904feff15339dbfecbe4f20c48c53b05e4cdf8d
 
 build:
   noarch: python
